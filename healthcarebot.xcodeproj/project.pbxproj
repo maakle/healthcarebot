@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF881D8518510040E67F /* AppDelegate.swift */; };
+		2D25EF8B1D8518510040E67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF8A1D8518510040E67F /* ViewController.swift */; };
+		2D25EF8E1D8518510040E67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF8C1D8518510040E67F /* Main.storyboard */; };
+		2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */; };
+		2D25EF931D8518510040E67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF921D8518510040E67F /* Assets.xcassets */; };
+		2D25EF961D8518510040E67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF941D8518510040E67F /* LaunchScreen.storyboard */; };
+		2D25EFA11D8518510040E67F /* healthcarebotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFA01D8518510040E67F /* healthcarebotTests.swift */; };
+		2D25EFAC1D8518510040E67F /* healthcarebotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFAB1D8518510040E67F /* healthcarebotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D25EF9D1D8518510040E67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D25EF7D1D8518510040E67F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D25EF841D8518510040E67F;
+			remoteInfo = healthcarebot;
+		};
+		2D25EFA81D8518510040E67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D25EF7D1D8518510040E67F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D25EF841D8518510040E67F;
+			remoteInfo = healthcarebot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D25EF851D8518510040E67F /* healthcarebot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthcarebot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D25EF881D8518510040E67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D25EF8A1D8518510040E67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D25EF8D1D8518510040E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D25EF901D8518510040E67F /* healthcarebot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = healthcarebot.xcdatamodel; sourceTree = "<group>"; };
+		2D25EF921D8518510040E67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D25EF951D8518510040E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D25EF971D8518510040E67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D25EF9C1D8518510040E67F /* healthcarebotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = healthcarebotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D25EFA01D8518510040E67F /* healthcarebotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthcarebotTests.swift; sourceTree = "<group>"; };
+		2D25EFA21D8518510040E67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D25EFA71D8518510040E67F /* healthcarebotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = healthcarebotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D25EFAB1D8518510040E67F /* healthcarebotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthcarebotUITests.swift; sourceTree = "<group>"; };
+		2D25EFAD1D8518510040E67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D25EF821D8518510040E67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EF991D8518510040E67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EFA41D8518510040E67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D25EF7C1D8518510040E67F = {
+			isa = PBXGroup;
+			children = (
+				2D25EF871D8518510040E67F /* healthcarebot */,
+				2D25EF9F1D8518510040E67F /* healthcarebotTests */,
+				2D25EFAA1D8518510040E67F /* healthcarebotUITests */,
+				2D25EF861D8518510040E67F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D25EF861D8518510040E67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D25EF851D8518510040E67F /* healthcarebot.app */,
+				2D25EF9C1D8518510040E67F /* healthcarebotTests.xctest */,
+				2D25EFA71D8518510040E67F /* healthcarebotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D25EF871D8518510040E67F /* healthcarebot */ = {
+			isa = PBXGroup;
+			children = (
+				2D25EF881D8518510040E67F /* AppDelegate.swift */,
+				2D25EF8A1D8518510040E67F /* ViewController.swift */,
+				2D25EF8C1D8518510040E67F /* Main.storyboard */,
+				2D25EF921D8518510040E67F /* Assets.xcassets */,
+				2D25EF941D8518510040E67F /* LaunchScreen.storyboard */,
+				2D25EF971D8518510040E67F /* Info.plist */,
+				2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */,
+			);
+			path = healthcarebot;
+			sourceTree = "<group>";
+		};
+		2D25EF9F1D8518510040E67F /* healthcarebotTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D25EFA01D8518510040E67F /* healthcarebotTests.swift */,
+				2D25EFA21D8518510040E67F /* Info.plist */,
+			);
+			path = healthcarebotTests;
+			sourceTree = "<group>";
+		};
+		2D25EFAA1D8518510040E67F /* healthcarebotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D25EFAB1D8518510040E67F /* healthcarebotUITests.swift */,
+				2D25EFAD1D8518510040E67F /* Info.plist */,
+			);
+			path = healthcarebotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D25EF841D8518510040E67F /* healthcarebot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D25EFB01D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebot" */;
+			buildPhases = (
+				2D25EF811D8518510040E67F /* Sources */,
+				2D25EF821D8518510040E67F /* Frameworks */,
+				2D25EF831D8518510040E67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = healthcarebot;
+			productName = healthcarebot;
+			productReference = 2D25EF851D8518510040E67F /* healthcarebot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D25EF9B1D8518510040E67F /* healthcarebotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D25EFB31D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebotTests" */;
+			buildPhases = (
+				2D25EF981D8518510040E67F /* Sources */,
+				2D25EF991D8518510040E67F /* Frameworks */,
+				2D25EF9A1D8518510040E67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D25EF9E1D8518510040E67F /* PBXTargetDependency */,
+			);
+			name = healthcarebotTests;
+			productName = healthcarebotTests;
+			productReference = 2D25EF9C1D8518510040E67F /* healthcarebotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D25EFA61D8518510040E67F /* healthcarebotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D25EFB61D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebotUITests" */;
+			buildPhases = (
+				2D25EFA31D8518510040E67F /* Sources */,
+				2D25EFA41D8518510040E67F /* Frameworks */,
+				2D25EFA51D8518510040E67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D25EFA91D8518510040E67F /* PBXTargetDependency */,
+			);
+			name = healthcarebotUITests;
+			productName = healthcarebotUITests;
+			productReference = 2D25EFA71D8518510040E67F /* healthcarebotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D25EF7D1D8518510040E67F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mathias Klenk";
+				TargetAttributes = {
+					2D25EF841D8518510040E67F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2D25EF9B1D8518510040E67F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D25EF841D8518510040E67F;
+					};
+					2D25EFA61D8518510040E67F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2D25EF841D8518510040E67F;
+					};
+				};
+			};
+			buildConfigurationList = 2D25EF801D8518510040E67F /* Build configuration list for PBXProject "healthcarebot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D25EF7C1D8518510040E67F;
+			productRefGroup = 2D25EF861D8518510040E67F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D25EF841D8518510040E67F /* healthcarebot */,
+				2D25EF9B1D8518510040E67F /* healthcarebotTests */,
+				2D25EFA61D8518510040E67F /* healthcarebotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D25EF831D8518510040E67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D25EF961D8518510040E67F /* LaunchScreen.storyboard in Resources */,
+				2D25EF931D8518510040E67F /* Assets.xcassets in Resources */,
+				2D25EF8E1D8518510040E67F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EF9A1D8518510040E67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EFA51D8518510040E67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D25EF811D8518510040E67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D25EF8B1D8518510040E67F /* ViewController.swift in Sources */,
+				2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */,
+				2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EF981D8518510040E67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D25EFA11D8518510040E67F /* healthcarebotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D25EFA31D8518510040E67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D25EFAC1D8518510040E67F /* healthcarebotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D25EF9E1D8518510040E67F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D25EF841D8518510040E67F /* healthcarebot */;
+			targetProxy = 2D25EF9D1D8518510040E67F /* PBXContainerItemProxy */;
+		};
+		2D25EFA91D8518510040E67F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D25EF841D8518510040E67F /* healthcarebot */;
+			targetProxy = 2D25EFA81D8518510040E67F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D25EF8C1D8518510040E67F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D25EF8D1D8518510040E67F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D25EF941D8518510040E67F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D25EF951D8518510040E67F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D25EFAE1D8518510040E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D25EFAF1D8518510040E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D25EFB11D8518510040E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = healthcarebot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D25EFB21D8518510040E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = healthcarebot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D25EFB41D8518510040E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = healthcarebotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healthcarebot.app/healthcarebot";
+			};
+			name = Debug;
+		};
+		2D25EFB51D8518510040E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = healthcarebotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/healthcarebot.app/healthcarebot";
+			};
+			name = Release;
+		};
+		2D25EFB71D8518510040E67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = healthcarebotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = healthcarebot;
+			};
+			name = Debug;
+		};
+		2D25EFB81D8518510040E67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = healthcarebotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = healthcarebot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D25EF801D8518510040E67F /* Build configuration list for PBXProject "healthcarebot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25EFAE1D8518510040E67F /* Debug */,
+				2D25EFAF1D8518510040E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D25EFB01D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25EFB11D8518510040E67F /* Debug */,
+				2D25EFB21D8518510040E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D25EFB31D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25EFB41D8518510040E67F /* Debug */,
+				2D25EFB51D8518510040E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D25EFB61D8518510040E67F /* Build configuration list for PBXNativeTarget "healthcarebotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D25EFB71D8518510040E67F /* Debug */,
+				2D25EFB81D8518510040E67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D25EF901D8518510040E67F /* healthcarebot.xcdatamodel */,
+			);
+			currentVersion = 2D25EF901D8518510040E67F /* healthcarebot.xcdatamodel */;
+			path = healthcarebot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D25EF7D1D8518510040E67F /* Project object */;
+}
