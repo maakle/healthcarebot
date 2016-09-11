@@ -25,12 +25,20 @@ UINavigationControllerDelegate {
         senderDisplayName = "Me"
         self.title = "Doctor Watson"
 
+        //Welcome message
+        welcomeMessage()
         
         automaticallyScrollsToMostRecentMessage = true
         
         senderDisplayName = (senderDisplayName != nil) ? senderDisplayName : "Anonymous"
         collectionView?.collectionViewLayout.incomingAvatarViewSize = .zero
         collectionView?.collectionViewLayout.outgoingAvatarViewSize = .zero
+    }
+    
+    func welcomeMessage(){
+        let message = JSQMessage(senderId: "Server", senderDisplayName: "Server", date: NSDate(), text: "Hello, I'm Doctor Watson. How can I help you?")
+        self.messages.append(message)
+        self.collectionView?.reloadData()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -138,11 +146,8 @@ UINavigationControllerDelegate {
     }
     
     
-    
     // MARK: - CollectionView functions
-    
     override func collectionView(collectionView: JSQMessagesCollectionView!, messageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageData! {
-//        print(messages[indexPath.item].text!)
         return messages[indexPath.item]
     }
     
