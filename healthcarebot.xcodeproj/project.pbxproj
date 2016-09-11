@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF881D8518510040E67F /* AppDelegate.swift */; };
-		2D25EF8B1D8518510040E67F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF8A1D8518510040E67F /* ViewController.swift */; };
 		2D25EF8E1D8518510040E67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF8C1D8518510040E67F /* Main.storyboard */; };
 		2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */; };
 		2D25EF931D8518510040E67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF921D8518510040E67F /* Assets.xcassets */; };
 		2D25EF961D8518510040E67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF941D8518510040E67F /* LaunchScreen.storyboard */; };
 		2D25EFA11D8518510040E67F /* healthcarebotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFA01D8518510040E67F /* healthcarebotTests.swift */; };
 		2D25EFAC1D8518510040E67F /* healthcarebotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFAB1D8518510040E67F /* healthcarebotUITests.swift */; };
+		2D25EFBD1D851FE40040E67F /* ConversationV1Experimental.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFBB1D851FC20040E67F /* ConversationV1Experimental.framework */; };
+		2D25EFBE1D851FE40040E67F /* ConversationV1Experimental.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFBB1D851FC20040E67F /* ConversationV1Experimental.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D25EFC11D8520C20040E67F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC01D8520C20040E67F /* Alamofire.framework */; };
+		2D25EFC31D8520EA0040E67F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC01D8520C20040E67F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D25EFC51D85211E0040E67F /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC41D85211E0040E67F /* Freddy.framework */; };
+		2D25EFC71D8521360040E67F /* Freddy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC41D85211E0040E67F /* Freddy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D25EFC91D8521540040E67F /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC81D8521540040E67F /* RestKit.framework */; };
+		2D25EFCB1D85215B0040E67F /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFC81D8521540040E67F /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D25EFCD1D8521ED0040E67F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFCC1D8521ED0040E67F /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +42,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2D25EFBF1D851FE40040E67F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D25EFBE1D851FE40040E67F /* ConversationV1Experimental.framework in Embed Frameworks */,
+				2D25EFC71D8521360040E67F /* Freddy.framework in Embed Frameworks */,
+				2D25EFC31D8520EA0040E67F /* Alamofire.framework in Embed Frameworks */,
+				2D25EFCB1D85215B0040E67F /* RestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2D25EF851D8518510040E67F /* healthcarebot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthcarebot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25EF881D8518510040E67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D25EF8A1D8518510040E67F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D25EF8D1D8518510040E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D25EF901D8518510040E67F /* healthcarebot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = healthcarebot.xcdatamodel; sourceTree = "<group>"; };
 		2D25EF921D8518510040E67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +73,11 @@
 		2D25EFA71D8518510040E67F /* healthcarebotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = healthcarebotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25EFAB1D8518510040E67F /* healthcarebotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthcarebotUITests.swift; sourceTree = "<group>"; };
 		2D25EFAD1D8518510040E67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D25EFBB1D851FC20040E67F /* ConversationV1Experimental.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConversationV1Experimental.framework; sourceTree = "<group>"; };
+		2D25EFC01D8520C20040E67F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		2D25EFC41D85211E0040E67F /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Freddy.framework; sourceTree = "<group>"; };
+		2D25EFC81D8521540040E67F /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		2D25EFCC1D8521ED0040E67F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D25EFBD1D851FE40040E67F /* ConversationV1Experimental.framework in Frameworks */,
+				2D25EFC51D85211E0040E67F /* Freddy.framework in Frameworks */,
+				2D25EFC11D8520C20040E67F /* Alamofire.framework in Frameworks */,
+				2D25EFC91D8521540040E67F /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,7 @@
 				2D25EF9F1D8518510040E67F /* healthcarebotTests */,
 				2D25EFAA1D8518510040E67F /* healthcarebotUITests */,
 				2D25EF861D8518510040E67F /* Products */,
+				2D25EFB91D851F5C0040E67F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				2D25EF881D8518510040E67F /* AppDelegate.swift */,
-				2D25EF8A1D8518510040E67F /* ViewController.swift */,
 				2D25EF8C1D8518510040E67F /* Main.storyboard */,
-				2D25EF921D8518510040E67F /* Assets.xcassets */,
 				2D25EF941D8518510040E67F /* LaunchScreen.storyboard */,
+				2D25EF921D8518510040E67F /* Assets.xcassets */,
 				2D25EF971D8518510040E67F /* Info.plist */,
 				2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */,
+				2D25EFCC1D8521ED0040E67F /* MainViewController.swift */,
 			);
 			path = healthcarebot;
 			sourceTree = "<group>";
@@ -128,6 +162,18 @@
 			path = healthcarebotUITests;
 			sourceTree = "<group>";
 		};
+		2D25EFB91D851F5C0040E67F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D25EFC81D8521540040E67F /* RestKit.framework */,
+				2D25EFC41D85211E0040E67F /* Freddy.framework */,
+				2D25EFC01D8520C20040E67F /* Alamofire.framework */,
+				2D25EFBB1D851FC20040E67F /* ConversationV1Experimental.framework */,
+			);
+			name = Frameworks;
+			path = healthcarebot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +184,7 @@
 				2D25EF811D8518510040E67F /* Sources */,
 				2D25EF821D8518510040E67F /* Frameworks */,
 				2D25EF831D8518510040E67F /* Resources */,
+				2D25EFBF1D851FE40040E67F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D25EF8B1D8518510040E67F /* ViewController.swift in Sources */,
 				2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */,
 				2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */,
+				2D25EFCD1D8521ED0040E67F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +452,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/healthcarebot",
+				);
 				INFOPLIST_FILE = healthcarebot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
@@ -416,6 +467,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/healthcarebot",
+				);
 				INFOPLIST_FILE = healthcarebot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
