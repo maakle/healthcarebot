@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D25EF841D8518510040E67F"
-               BuildableName = "healthcarebot.app"
+               BuildableName = "Doctor Watson.app"
                BlueprintName = "healthcarebot"
                ReferencedContainer = "container:healthcarebot.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D25EF841D8518510040E67F"
-            BuildableName = "healthcarebot.app"
+            BuildableName = "Doctor Watson.app"
             BlueprintName = "healthcarebot"
             ReferencedContainer = "container:healthcarebot.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D25EF841D8518510040E67F"
-            BuildableName = "healthcarebot.app"
+            BuildableName = "Doctor Watson.app"
             BlueprintName = "healthcarebot"
             ReferencedContainer = "container:healthcarebot.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D25EF841D8518510040E67F"
-            BuildableName = "healthcarebot.app"
+            BuildableName = "Doctor Watson.app"
             BlueprintName = "healthcarebot"
             ReferencedContainer = "container:healthcarebot.xcodeproj">
          </BuildableReference>
