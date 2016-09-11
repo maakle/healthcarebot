@@ -49,8 +49,12 @@ class MainUiTableViewController: UITableViewController {
         
         if indexPath.row == 0 {
             let chatView = ChatViewController()
-//            let chatNavigationController = UINavigationController(rootViewController: chatView)
             self.navigationController?.pushViewController(chatView, animated: true)
+        }
+        
+        if indexPath.row == 2 {
+            let emergencyVideoController = StartEmergencyVideoViewController()
+            self.navigationController?.pushViewController(emergencyVideoController, animated: false)
         }
     
         

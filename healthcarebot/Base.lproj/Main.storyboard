@@ -245,6 +245,24 @@
             </objects>
             <point key="canvasLocation" x="1125" y="1096"/>
         </scene>
+        <!--Start Emergency Video View Controller-->
+        <scene sceneID="dXz-ML-jPS">
+            <objects>
+                <viewController id="rJr-oK-6S3" customClass="StartEmergencyVideoViewController" customModule="Doctor_Watson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="82s-q4-BlV"/>
+                        <viewControllerLayoutGuide type="bottom" id="dog-33-zm1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gRo-UJ-Iff">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3RU-vg-tH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1491" y="1870"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="gYI-8e-Abt">
             <objects>
