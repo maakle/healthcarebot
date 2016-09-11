@@ -63,7 +63,7 @@
 
 /* Begin PBXFileReference section */
 		0A5B75830960777CCA62C5ED /* Pods_healthcarebot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_healthcarebot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D25EF851D8518510040E67F /* healthcarebot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthcarebot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D25EF851D8518510040E67F /* Doctor Watson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor Watson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25EF881D8518510040E67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D25EF8D1D8518510040E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D25EF901D8518510040E67F /* healthcarebot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = healthcarebot.xcdatamodel; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		2D25EF861D8518510040E67F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D25EF851D8518510040E67F /* healthcarebot.app */,
+				2D25EF851D8518510040E67F /* Doctor Watson.app */,
 				2D25EF9C1D8518510040E67F /* healthcarebotTests.xctest */,
 				2D25EFA71D8518510040E67F /* healthcarebotUITests.xctest */,
 			);
@@ -214,7 +214,7 @@
 			);
 			name = healthcarebot;
 			productName = healthcarebot;
-			productReference = 2D25EF851D8518510040E67F /* healthcarebot.app */;
+			productReference = 2D25EF851D8518510040E67F /* Doctor Watson.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D25EF9B1D8518510040E67F /* healthcarebotTests */ = {
@@ -531,7 +531,7 @@
 				INFOPLIST_FILE = healthcarebot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doctor Watson";
 			};
 			name = Debug;
 		};
@@ -547,7 +547,7 @@
 				INFOPLIST_FILE = healthcarebot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MK.journeytags.healthcarebot;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doctor Watson";
 			};
 			name = Release;
 		};
