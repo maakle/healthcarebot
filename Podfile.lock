@@ -2,14 +2,21 @@ PODS:
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - TwilioCommon (0.3.1)
+  - TwilioConversationsClient (0.25.1):
+    - TwilioCommon (~> 0.3.1)
 
 DEPENDENCIES:
   - JSQMessagesViewController
+  - TwilioCommon
+  - TwilioConversationsClient
 
 SPEC CHECKSUMS:
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  TwilioCommon: fc3d4191021040999c61a6f6e197a601b26d5d12
+  TwilioConversationsClient: b5f71106ebbc28a7c08718608c5ea091b866616a
 
-PODFILE CHECKSUM: 4f7d8297f5563b801405ee87f624761ad930bd27
+PODFILE CHECKSUM: 86e8304a3b5ffc9fc675d4fe36832ae104f5d020
 
 COCOAPODS: 1.0.1

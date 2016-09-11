@@ -51,6 +51,8 @@ class MainUiTableViewController: UITableViewController {
             let chatView = ChatViewController()
 //            let chatNavigationController = UINavigationController(rootViewController: chatView)
             self.navigationController?.pushViewController(chatView, animated: true)
+        } else if indexPath.row == 2 {
+            self.navigationController?.pushViewController(ConversationViewController(), animated: true)
         }
         
     }
