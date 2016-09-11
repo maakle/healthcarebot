@@ -18,6 +18,7 @@ let conversation = Conversation(username: username, password: password, version:
 
 let workspaceID = "9463ae2d-643a-4c3e-bf7d-6e40d4252099"
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -27,8 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-    
         
+        //Set navigation bar styles
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor();
+    
         return true
     }
 

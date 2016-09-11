@@ -12,8 +12,9 @@ class MainUiTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-//        setLogoStyles()
+        setNavigationBarStyles()
+        setLogoStyles()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,18 +24,29 @@ class MainUiTableViewController: UITableViewController {
     
     func setLogoStyles(){
         // Logo in NavBar
-        let logo = UIImage(named: "loclbirdLogo_white")
+        let logo = UIImage(named: "navigationLogo")
         let logoView = UIImageView(image: logo)
-        //logoView.frame.size.width = 100
-        logoView.frame.size.height = 50
+        logoView.frame.size.height = 45
         logoView.contentMode = .ScaleAspectFit
         logoView.image = logo
         
         navigationItem.titleView = logoView
     }
+    
+    func setNavigationBarStyles(){
+        //Delete the little line(shadow) in navigation bar
+        for parent in self.navigationController!.navigationBar.subviews {
+            for childView in parent.subviews {
+                if(childView is UIImageView) {
+                    childView.removeFromSuperview()
+                }
+            }
+        }
+    }
 
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
         if indexPath.row == 0 {
             let chatView = ChatViewController()
 //            let chatNavigationController = UINavigationController(rootViewController: chatView)

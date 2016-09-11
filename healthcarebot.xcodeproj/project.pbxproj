@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D0434131D85653800582EC6 /* MainUiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0434121D85653800582EC6 /* MainUiTableViewController.swift */; };
+		2D0434151D857F4C00582EC6 /* DoctorsAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0434141D857F4C00582EC6 /* DoctorsAroundViewController.swift */; };
 		2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF881D8518510040E67F /* AppDelegate.swift */; };
 		2D25EF8E1D8518510040E67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D25EF8C1D8518510040E67F /* Main.storyboard */; };
 		2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EF8F1D8518510040E67F /* healthcarebot.xcdatamodeld */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		0A5B75830960777CCA62C5ED /* Pods_healthcarebot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_healthcarebot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0434121D85653800582EC6 /* MainUiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainUiTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		2D0434141D857F4C00582EC6 /* DoctorsAroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsAroundViewController.swift; sourceTree = SOURCE_ROOT; };
 		2D25EF851D8518510040E67F /* Doctor Watson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doctor Watson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D25EF881D8518510040E67F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D25EF8D1D8518510040E67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				2D25EFD21D852F070040E67F /* ChatViewController.swift */,
+				2D0434141D857F4C00582EC6 /* DoctorsAroundViewController.swift */,
 				2D0434121D85653800582EC6 /* MainUiTableViewController.swift */,
 				2D25EF881D8518510040E67F /* AppDelegate.swift */,
 				2D25EF8C1D8518510040E67F /* Main.storyboard */,
@@ -379,6 +382,7 @@
 				2D25EF891D8518510040E67F /* AppDelegate.swift in Sources */,
 				2D0434131D85653800582EC6 /* MainUiTableViewController.swift in Sources */,
 				2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */,
+				2D0434151D857F4C00582EC6 /* DoctorsAroundViewController.swift in Sources */,
 				2D25EFD31D852F070040E67F /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
