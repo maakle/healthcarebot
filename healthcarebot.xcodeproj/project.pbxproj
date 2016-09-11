@@ -25,7 +25,6 @@
 		2D25EFCF1D8526AA0040E67F /* ConversationV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFCE1D8526AA0040E67F /* ConversationV1.framework */; };
 		2D25EFD11D8526B80040E67F /* ConversationV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D25EFCE1D8526AA0040E67F /* ConversationV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2D25EFD31D852F070040E67F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D25EFD21D852F070040E67F /* ChatViewController.swift */; };
-		B5A049BC1D857E5F006BB29D /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A049BB1D857E5F006BB29D /* ConversationViewController.m */; };
 		C9685507F09055DB761B6196 /* Pods_healthcarebot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5B75830960777CCA62C5ED /* Pods_healthcarebot.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,8 +87,6 @@
 		66507652D39D00AF3A28E541 /* Pods-healthcarebot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-healthcarebot.release.xcconfig"; path = "Pods/Target Support Files/Pods-healthcarebot/Pods-healthcarebot.release.xcconfig"; sourceTree = "<group>"; };
 		7B233AE4941B9FD9A3312ED3 /* Pods-healthcarebot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-healthcarebot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-healthcarebot/Pods-healthcarebot.debug.xcconfig"; sourceTree = "<group>"; };
 		B5A049B91D857E5F006BB29D /* healthcarebot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "healthcarebot-Bridging-Header.h"; sourceTree = "<group>"; };
-		B5A049BA1D857E5F006BB29D /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
-		B5A049BB1D857E5F006BB29D /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +144,6 @@
 		2D25EF871D8518510040E67F /* healthcarebot */ = {
 			isa = PBXGroup;
 			children = (
-				B5A049BA1D857E5F006BB29D /* ConversationViewController.h */,
-				B5A049BB1D857E5F006BB29D /* ConversationViewController.m */,
 				2D25EFD21D852F070040E67F /* ChatViewController.swift */,
 				2D0434141D857F4C00582EC6 /* DoctorsAroundViewController.swift */,
 				2D0434121D85653800582EC6 /* MainUiTableViewController.swift */,
@@ -391,7 +386,6 @@
 				2D25EF911D8518510040E67F /* healthcarebot.xcdatamodeld in Sources */,
 				2D0434151D857F4C00582EC6 /* DoctorsAroundViewController.swift in Sources */,
 				2D25EFD31D852F070040E67F /* ChatViewController.swift in Sources */,
-				B5A049BC1D857E5F006BB29D /* ConversationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

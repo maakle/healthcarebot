@@ -45,6 +45,8 @@
 	</array>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>This app requires location</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>

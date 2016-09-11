@@ -10,7 +10,5 @@ target 'healthcarebot' do
 
 pod 'JSQMessagesViewController'
 
-pod 'TwilioConversationsClient', :source => 'https://github.com/twilio/cocoapod-specs'
-pod 'TwilioCommon', :source => 'https://github.com/twilio/cocoapod-specs'
 
 end
