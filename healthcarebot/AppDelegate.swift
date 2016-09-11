@@ -8,15 +8,27 @@
 
 import UIKit
 import CoreData
+import ConversationV1
+
+// IBM Watson Credentials
+let username = "93130ba0-f8af-4532-b110-d0487c6aa932"
+let password = "6A5PnkP8l4Rl"
+let version = "2016-09-10" // use today's date for the most recent version
+let conversation = Conversation(username: username, password: password, version: version)
+
+let workspaceID = "9463ae2d-643a-4c3e-bf7d-6e40d4252099"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+    
+        
         return true
     }
 
