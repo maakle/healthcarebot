@@ -13,56 +13,26 @@ class MainUiTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+//        setLogoStyles()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    // MARK: - Table view data source
-
-    /*
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-
     
-    // MARK: - Navigation
+    func setLogoStyles(){
+        // Logo in NavBar
+        let logo = UIImage(named: "loclbirdLogo_white")
+        let logoView = UIImageView(image: logo)
+        //logoView.frame.size.width = 100
+        logoView.frame.size.height = 50
+        logoView.contentMode = .ScaleAspectFit
+        logoView.image = logo
+        
+        navigationItem.titleView = logoView
+    }
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        // Get the new view controller using segue.destinationViewController.
-//        // Pass the selected object to the new view controller.
-//        
-//        if(segue.identifier == "showDoctorWatson"){
-//            let chatView = ChatViewController()
-//            let chatNavigationController = UINavigationController(rootViewController: chatView)
-//            presentViewController(chatNavigationController, animated: true, completion: nil)
-//            
-//            let destViewControllerChatViewController = segue.destinationViewController as! ChatViewController
-//            
-//        }
-//    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.row == 0 {
@@ -70,7 +40,6 @@ class MainUiTableViewController: UITableViewController {
 //            let chatNavigationController = UINavigationController(rootViewController: chatView)
             self.navigationController?.pushViewController(chatView, animated: true)
         }
-        
         
     }
  
